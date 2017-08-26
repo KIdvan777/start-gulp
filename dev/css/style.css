@@ -1,0 +1,8 @@
+header {
+  width: 200px;
+  height: 20px;
+  background-color: red; }
+  header p {
+    color: green;
+    -webkit-transition: top 1s ease-out 0.5s;
+    transition: top 1s ease-out 0.5s; }

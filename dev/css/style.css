@@ -97,19 +97,23 @@ header {
         background-color: #fff;
         color: #d24602;
         font-weight: bold; }
-    .head ul #lang {
-      border: none;
-      width: 112px;
-      height: 24px;
-      display: inline-block;
-      background-color: #FFF;
-      margin-top: 4px;
-      margin-left: 80px;
-      z-index: 20;
-      background-image: url("../images/lang.png");
-      background-repeat: no-repeat;
-      background-position: 70%;
-      z-index: 100; }
+    .head ul .lang {
+      position: absolute;
+      float: right;
+      margin-left: 730px;
+      z-index: 20; }
+      .head ul .lang #lang {
+        border: none;
+        width: 112px;
+        height: 24px;
+        display: inline-block;
+        background-color: #FFF;
+        margin-top: 4px;
+        margin-left: 90px;
+        background-image: url("../images/lang.png");
+        background-repeat: no-repeat;
+        background-position: 70%;
+        z-index: 10; }
 
 .line {
   padding: 0;
@@ -364,4 +368,5 @@ article {
 footer .foot-menu {
   height: 120px;
   width: 980px;
-  background-color: rgba(255, 255, 255, 0.21); }
+  margin-left: 16px;
+  background-color: rgba(255, 255, 255, 0.01); }

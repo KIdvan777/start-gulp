@@ -6,7 +6,7 @@ var uglify = require('gulp-uglify');
 var concat = require('gulp-concat');
 var autoprefixer = require('gulp-autoprefixer');
 var imagemin = require('gulp-imagemin');
-//var pngcrush = require('imagemin-pngcrush');
+var pngcrush = require('imagemin-pngcrush');
 
 var browserSync = require('browser-sync').create();
 
@@ -14,8 +14,9 @@ var browserSync = require('browser-sync').create();
 gulp.task('sass', function(){
 	gulp.src('start/style.scss')
 	.pipe(sass())
-	.pipe(autoprefixer())
-	.pipe(gulp.dest('dev/css'));
+	.pipe(autoprefixer({browsers: ['last 15 versions'], cascade: false}))
+	.pipe(gulp.dest('dev/css'))
+	.pipe(browserSync.stream());
 });
 
 gulp.task('min', function(){
@@ -42,16 +43,30 @@ gulp.task('img', function(){
 	gulp.src('dev/images/*')
 	.pipe(imagemin({
 		progressive: true,
-      	svgoPlugins: [{ removeViewBox: false }]
-      	//use: [pngcrush()]
+      	svgoPlugins: [{ removeViewBox: false }],
+      	use: [pngcrush()]
 	}))
 	.pipe(gulp.dest('public/img'));
 });
 
+gulp.task('watch', function() {
+  gulp.watch('start/style.scss', ['sass']);
+  gulp.watch('dev/css/**/*.*', ['min']);
+  gulp.watch('dev/*.html', ['html']);
+  gulp.watch('dev/js/**/*.*', ['js']);
+  gulp.watch('dev/images/*', ['img']);
+  
+});
+
+
 gulp.task('serve', function(){
 	browserSync.init({
-		  server: 'dev'
+		server: {
+						baseDir: "dev"
+				},
+				notify: false
 	});
+	//browserSync.watch('start/style.scss').on('change',browserSync.reload);
 	browserSync.watch('dev/**/*.*').on('change',browserSync.reload);
 });
 
@@ -61,5 +76,6 @@ gulp.task('default',[
 	'html',
 	'js',
 	'img',
-	'serve'
+	'serve',
+	'watch'
 	]);

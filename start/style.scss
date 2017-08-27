@@ -2,8 +2,9 @@ body{
 	padding: 0;
 	margin: 0;
 	background-image: url("../images/vk_com_oboihd_15231.jpg");
+	background-image: url("../images/Background.png");
 	background-repeat: no-repeat;
-	//background-size:100%;
+	background-size:100%;
 }
 header{
 		padding: 0;
@@ -119,19 +120,19 @@ header{
 			}
 		}	
 	}
-// .line{
-// 	padding: 0;
-// 	margin: 0;
-// 	margin-left: auto;
-// 	margin-right: auto;
-// 	width: 980px;
-// 	height: 2px;
-// 	border-bottom: 2px solid #d6d6d6;
-// }
+.line{
+	padding: 0;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+	height: 2px;
+	border-bottom: 2px solid #d6d6d6;
+}
 .site-body{
 	padding: 0;
 	margin: 0;
-	height: 953px;
+ 	height: 1053px;
 	width: 980px;
 	margin-left: auto;
 	margin-right: auto;
@@ -275,8 +276,10 @@ header{
 	}
 }
 aside{
+	display: inline-block;
 	.top-dest{
-		height: 496px;
+		display: inline-block;
+		height: 504px;
 		width: 264px;
 		margin-left: 16px;
 		margin-top: 16px;
@@ -342,4 +345,77 @@ aside{
 			}
 		}
 	}
+	
+}article{
+	margin: 0;
+	padding: 0;
+	display: inline-block;
+	float: right;
+	padding-right: 16px;
+	padding-top: 25px;
+	span{
+		display: block;
+		margin-left: 14px;
+		color: #0e4d7c;
+		font-family: "Myriad Pro";
+		font-weight: bold;
+		font-size: 18px;
+	}
+	.wrap-featured-item{
+		display: inline-block;
+		float: left;
+		width: 212px;
+		height: 222px;
+		background-color: #ebebe8;
+		margin-left: 13px;
+		margin-top: 13px;
+		border: 1px solid #e5e2c4;
+		border-radius: 5px;
+		.featured-item{
+			width: 200px;
+			height: 210px;
+			background-color: #FFF;
+			margin-left: 6px;
+			margin-top: 6px;
+			img{
+				width: 188;
+				height: 152px;
+				margin-left: 6px;
+				margin-top: 6px;
+
+			}
+			span{
+				margin: 0;
+				margin-top: 6px;
+				margin-bottom: 6px;
+				font-size: 12px;
+			  	font-family: "Verdana";
+			  	color: rgb(25, 135, 203);
+			  	font-weight: bold;
+			  	text-align: center;
+			  	
+			}
+			p{	
+				margin: 0;
+				font-size: 12px;
+			  	font-family: "Verdana";
+			  	color: #6f7274;
+			  	font-weight: bold;
+			  	text-align: center;
+			  	i{
+			  		color: #ff6600;
+			  	}
+			}
+		}
+		
+	}
+	
 }
+footer{
+	.foot-menu{
+		height: 120px;
+		width: 980px;
+		background-color: rgba(255, 255, 255, 0.21);
+		}
+	}
+

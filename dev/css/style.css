@@ -2,7 +2,10 @@ body {
   padding: 0;
   margin: 0;
   background-image: url("../images/vk_com_oboihd_15231.jpg");
-  background-repeat: no-repeat; }
+  background-image: url("../images/Background.png");
+  background-repeat: no-repeat;
+  -webkit-background-size: 100% 100%;
+  background-size: 100%; }
 
 header {
   padding: 0;
@@ -108,10 +111,19 @@ header {
       background-position: 70%;
       z-index: 100; }
 
+.line {
+  padding: 0;
+  margin: 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 980px;
+  height: 2px;
+  border-bottom: 2px solid #d6d6d6; }
+
 .site-body {
   padding: 0;
   margin: 0;
-  height: 953px;
+  height: 1053px;
   width: 980px;
   margin-left: auto;
   margin-right: auto;
@@ -232,61 +244,124 @@ header {
   .site-body #star {
     margin-left: 60px; }
 
-aside .top-dest {
-  height: 496px;
-  width: 264px;
-  margin-left: 16px;
-  margin-top: 16px;
-  border: 1px solid #e5e2c4;
-  -webkit-border-radius: 5px;
-  border-radius: 5px; }
-  aside .top-dest span {
+aside {
+  display: inline-block; }
+  aside .top-dest {
     display: inline-block;
-    margin-top: 10px;
-    margin-left: 6px;
-    margin-bottom: 6px;
-    font-size: 18px;
-    font-family: "Myriad Pro";
-    font-weight: bold;
-    color: #0e4d7c; }
-  aside .top-dest .top-item {
-    height: 84px;
-    width: 253px;
-    margin-left: 5px;
-    margin-top: 1px;
-    background-color: #ebebe8; }
-    aside .top-dest .top-item img {
+    height: 504px;
+    width: 264px;
+    margin-left: 16px;
+    margin-top: 16px;
+    border: 1px solid #e5e2c4;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+    aside .top-dest span {
       display: inline-block;
-      width: 107px;
-      height: 66px;
+      margin-top: 10px;
       margin-left: 6px;
-      margin-top: 6px;
-      border: 3px solid #fff; }
-    aside .top-dest .top-item div {
-      display: inline-block;
-      width: 120px;
-      height: 100;
-      float: right; }
-      aside .top-dest .top-item div h5 {
-        margin: 0;
-        display: inline-block;
-        line-height: 3;
-        color: #0e4d7c;
-        font-size: 12px;
-        font-family: "Verdana";
-        font-weight: bold; }
-      aside .top-dest .top-item div p {
-        display: inline-block;
-        margin: 0;
-        font-size: 12px;
-        font-family: "Verdana";
-        font-weight: bold; }
-  aside .top-dest p {
-    display: inline-block;
-    margin-top: 8px;
-    margin-left: 12px; }
-    aside .top-dest p a {
-      text-decoration: none;
+      margin-bottom: 6px;
+      font-size: 18px;
       font-family: "Myriad Pro";
       font-weight: bold;
       color: #0e4d7c; }
+    aside .top-dest .top-item {
+      height: 84px;
+      width: 253px;
+      margin-left: 5px;
+      margin-top: 1px;
+      background-color: #ebebe8; }
+      aside .top-dest .top-item img {
+        display: inline-block;
+        width: 107px;
+        height: 66px;
+        margin-left: 6px;
+        margin-top: 6px;
+        border: 3px solid #fff; }
+      aside .top-dest .top-item div {
+        display: inline-block;
+        width: 120px;
+        height: 100;
+        float: right; }
+        aside .top-dest .top-item div h5 {
+          margin: 0;
+          display: inline-block;
+          line-height: 3;
+          color: #0e4d7c;
+          font-size: 12px;
+          font-family: "Verdana";
+          font-weight: bold; }
+        aside .top-dest .top-item div p {
+          display: inline-block;
+          margin: 0;
+          font-size: 12px;
+          font-family: "Verdana";
+          font-weight: bold; }
+    aside .top-dest p {
+      display: inline-block;
+      margin-top: 8px;
+      margin-left: 12px; }
+      aside .top-dest p a {
+        text-decoration: none;
+        font-family: "Myriad Pro";
+        font-weight: bold;
+        color: #0e4d7c; }
+
+article {
+  margin: 0;
+  padding: 0;
+  display: inline-block;
+  float: right;
+  padding-right: 16px;
+  padding-top: 25px; }
+  article span {
+    display: block;
+    margin-left: 14px;
+    color: #0e4d7c;
+    font-family: "Myriad Pro";
+    font-weight: bold;
+    font-size: 18px; }
+  article .wrap-featured-item {
+    display: inline-block;
+    float: left;
+    width: 212px;
+    height: 222px;
+    background-color: #ebebe8;
+    margin-left: 13px;
+    margin-top: 13px;
+    border: 1px solid #e5e2c4;
+    -webkit-border-radius: 5px;
+    border-radius: 5px; }
+    article .wrap-featured-item .featured-item {
+      width: 200px;
+      height: 210px;
+      background-color: #FFF;
+      margin-left: 6px;
+      margin-top: 6px; }
+      article .wrap-featured-item .featured-item img {
+        width: 188;
+        height: 152px;
+        margin-left: 6px;
+        margin-top: 6px; }
+      article .wrap-featured-item .featured-item span {
+        margin: 0;
+        margin-top: 6px;
+        margin-bottom: 6px;
+        font-size: 12px;
+        font-family: "Verdana";
+        color: #1987cb;
+        font-weight: bold;
+        text-align: center; }
+      article .wrap-featured-item .featured-item p {
+        margin: 0;
+        font-size: 12px;
+        font-family: "Verdana";
+        color: #6f7274;
+        font-weight: bold;
+        text-align: center; }
+        article .wrap-featured-item .featured-item p i {
+          color: #ff6600; }
+
+footer .foot-menu {
+  height: 120px;
+  width: 980px;
+  background-color: rgba(255, 255, 255, 0.21); }

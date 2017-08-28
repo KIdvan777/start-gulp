@@ -255,6 +255,15 @@ article {
         position: absolute;
         display: inline-block;
         line-height: 2; }
+        article .content .turs-item h2 a {
+          text-decoration: none;
+          font-size: 14px;
+          font-family: "Verdana";
+          color: #1987cb;
+          font-weight: bold;
+          text-align: left; }
+        article .content .turs-item h2 a:hover {
+          color: #ff6600; }
         article .content .turs-item h2 span {
           display: inline-block;
           float: right;
@@ -277,11 +286,9 @@ article {
         line-height: 1.5;
         text-align: left; }
       article .content .turs-item button {
-        width: 93px;
-        height: 24px;
         display: inline-block;
-        float: right;
-        margin-bottom: 20px;
+        float: left;
+        margin-top: 10px;
         color: #fff;
         font-family: "Myriad Pro";
         font-size: 18px;

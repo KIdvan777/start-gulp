@@ -1,0 +1,129 @@
+header{
+		padding: 0;
+		margin: 0;
+		height: 78px;
+		width: 980px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #f1f1f1;
+		.logo{
+			margin-left: 18px;
+			width: 200px;
+			display: inline-block;
+		}
+		.phone{
+			width: 150px;
+			height: 24px;
+			background-color: #185480;
+			box-shadow: 1px 1.732px 2px 0px rgba(0, 0, 0, 0.22);
+			border-radius: 4px;
+			float: right;
+			margin-top: 14px;
+			margin-right: 15px;
+			img{
+				margin-left:6px;
+				margin-top: 1px;
+
+			}
+			span{
+				color: #fff;
+				position: absolute;
+				margin-left: 12px;
+				line-height: 1.5;
+				font-size: 18px;
+				font-family: "Myriad Pro";
+				text-shadow: 0.5px 0.866px 1px rgba(0, 0, 0, 0.75);
+			}
+			p{
+				margin: 0;
+				margin-left: 22px;
+				font-family: "Myriad Pro";
+				font-size: 12px;
+				color: rgb(116, 120, 123);
+				text-transform: uppercase;
+  				line-height: 2;
+			}
+		}
+	}
+	.head{
+		padding: 0;
+		margin: 0;
+		width: 980px;
+		height: 37px;
+		margin-left: auto;
+		margin-right: auto;
+		background-color: #f1f1f1;
+		border-bottom: 2px solid #185480;
+		//border: 1px solid black;
+		ul{
+			
+			padding:0;
+			margin: 0;
+			margin-left: auto;
+			margin-right: auto;
+			width: 944px;
+			li{
+				padding: 0;
+				margin: 0;
+				list-style: none;
+				float: left;
+				display: inline-block;
+				margin-left: 2px;
+				//border: 1px solid black;
+				a{	
+					padding: 0;
+					margin: 0;
+					display: inline-block;
+					font-family: "Myriad Pro";
+					font-size: 15px;
+					height: 37px;
+					padding-right: 30px;
+					padding-left: 30px;
+					text-decoration: none;
+					text-align: center;
+					text-transform: uppercase;
+					line-height:2.8;
+					background-color: #57b1fb;
+					border-radius: 5px  5px 0 0;
+					color: #fff;
+				}
+			}
+			li:hover{
+				transform: scale(1.2);
+				a{
+					background-color: #fff;
+					color:#d24602; 
+					font-weight: bold;
+				}	
+			}
+			.lang{
+				
+				position: absolute;
+				float: right ;
+				margin-left:730px;
+				z-index: 20;
+				#lang{
+					border: none;
+					width: 112px;
+				 	height: 24px;
+				 	display: inline-block;
+					background-color: #FFF;
+					margin-top: 4px;
+					margin-left: 90px;
+					background-image: url("../images/lang.png");
+					background-repeat: no-repeat;
+					background-position: 70%;
+					z-index: 10;
+				}
+			}
+		}	
+	}
+.line{
+	padding: 0;
+	margin: 0;
+	margin-left: auto;
+	margin-right: auto;
+	width: 980px;
+	height: 2px;
+	border-bottom: 2px solid #d6d6d6;
+}

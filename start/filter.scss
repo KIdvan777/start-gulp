@@ -1,0 +1,124 @@
+.calculator{
+		width: 264px;
+		height: 414px;
+		margin-left: 16px;
+		display: inline-block;
+		border-radius: 5px;
+		background-color: #ebebe8;
+		span{
+			display: inline-block;
+			margin-top: 10px;
+			margin-left: 6px;
+			font-size: 18px;
+			font-family: "Myriad Pro";
+			font-weight: bold;
+			color: #0e4d7c;
+		}
+		.holy-search{
+			height: 372px;
+			width: 252px;
+			background-color: #FFF;
+			margin-left: 6px;
+			margin-top: 6px;
+			form{ 
+				span{
+					font-family: "Verdana";
+					font-weight: bold;
+					font-size: 12px;
+					margin-top: 22px;	
+					margin-left: 8px;
+				}
+				.where{
+					margin-top:10px; 	
+				}
+				#dest{
+					width: 236px;
+					height: 26px;
+					margin-left: 8px;
+					margin-right: 8px;
+					color: #6f7274;
+
+				}
+				.when{
+					margin-left: 8px;
+					#num{
+						width: 52px;
+						height: 26px;
+						color: #6f7274;
+						border: 1px solid #d2caca;
+						
+					}
+					#mounth{
+						width: 95px;
+						height: 26px;
+						color: #6f7274;
+						border: 1px solid #d2caca;
+						margin-left: 8px;
+					}
+					#year{
+						width: 66px;
+						height: 26px;
+						color: #6f7274;
+						border: 1px solid #d2caca;
+						margin-left: 8px;
+					}
+					
+				}
+				.duration{
+					margin-left: 8px;
+					#duration{
+						width: 236px;
+						height: 26px;
+						color: #6f7274;
+						border: 1px solid #d2caca;
+					}
+				}
+				.board{
+					margin-left: 8px;
+					span{
+						margin-left: 0;
+					}
+					.wr-board .wr-star{
+						display: inline;
+					}
+					#board{
+						width: 110px;
+						height: 26px;
+						color: #6f7274;
+						border: 1px solid #d2caca;
+					}
+					#star{
+						width: 110px;
+						height: 26px;
+						color: #6f7274;
+						margin-left: 12px;
+						border: 1px solid #d2caca;
+
+					}
+				}
+			}
+			button{
+				width: 162px;
+				height: 36px;
+				display: block;
+				margin-top: 20px;
+				margin-left: auto;
+				margin-right: auto;
+				color: #fff;
+				
+				font-family: "Myriad Pro";
+				font-size: 18px;
+				cursor: pointer;
+				border-radius: 5px;
+				border-style: solid;
+  				border-width: 1px;
+ 				border-color: rgb(244, 127, 17);
+  				border-radius: 5px;
+  				background-image: linear-gradient( 90deg, rgb(244,124,14)
+  				 0%, rgb(250,168,72) 100%);
+  				box-shadow: 1px 1.732px 2px 0px rgba(2, 0, 0, 0.21);
+			}
+		}
+	}#star{
+		margin-left: 60px;
+	}

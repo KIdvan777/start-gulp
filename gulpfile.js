@@ -19,6 +19,7 @@ gulp.task('sass', function(){
 	.pipe(browserSync.stream());
 });
 
+
 gulp.task('min', function(){
  gulp.src('dev/css/**/*.*')
  	.pipe(concat('style.min.css'))

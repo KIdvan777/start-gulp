@@ -1,4 +1,64 @@
 @import "body";
 @import "header";
 @import "site-body";
+@import "tur-filter";
+@import "tur-article";
 @import "footer";
+
+.site-body{
+	padding-top: 16px;
+}
+aside{
+	.filter{
+		width: 197px;
+		height: 785px;
+		background-color: #ebebe8;
+		margin-left: 16px;
+		padding-right: 10px;
+		padding-left: 10px;
+		span{
+			display: inline-block;
+			margin-top: 12px;
+			font-size: 12px;
+  			font-family: "Verdana";
+			font-weight: bold;
+			color: #0e4d7c;
+			margin-bottom: 8px;
+		}
+		.season{
+			height: 26px;
+			background-color: #FFF;
+			margin-bottom: 6px;
+			border-style: solid;
+  			border-width: 1px;
+ 			border-color: rgb(228, 226, 226);
+ 			border-radius: 2px;
+  			background-image: -moz-linear-gradient( 90deg, rgb(236,236,234) 0%, rgb(253,253,253) 100%);
+  			background-image: -webkit-linear-gradient( 90deg, rgb(236,236,234) 0%, rgb(253,253,253) 100%);
+  			background-image: -ms-linear-gradient( 90deg, rgb(236,236,234) 0%, rgb(253,253,253) 100%);
+  			box-shadow: 1px 1.732px 2px 0px rgba(0, 0, 0, 0.03);
+			p{	
+				margin: 0;
+				font-size: 12px;
+				font-family: "Verdana";
+				color: rgb(25, 135, 203);
+				line-height: 2;
+				text-align: left;
+				i{
+					margin-left: 10px;
+					margin-right: 10px;
+				}
+
+			}p:hover{
+				color:#dd7441;
+				cursor: pointer;
+				margin-left: 20px;
+				transition: 0.6s ease-out;
+				i:hover{
+					color:#dd7441;
+
+				}
+			}
+		}
+	}
+}

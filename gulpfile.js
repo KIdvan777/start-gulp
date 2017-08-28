@@ -22,7 +22,7 @@ gulp.task('sass', function(){
 
 gulp.task('min', function(){
  gulp.src('dev/css/**/*.*')
- 	.pipe(concat('style.min.css'))
+ 	.pipe(concat('style.css'))
     .pipe(min({compatibility: 'ie8'}))
     .pipe(gulp.dest('public/css'));
 });
@@ -47,7 +47,7 @@ gulp.task('img', function(){
       	svgoPlugins: [{ removeViewBox: false }],
       	use: [pngcrush()]
 	}))
-	.pipe(gulp.dest('public/img'));
+	.pipe(gulp.dest('public/images'));
 });
 
 gulp.task('watch', function() {

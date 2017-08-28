@@ -343,6 +343,11 @@ aside{
 			}
 			
 		}
+		.top-item:hover{
+			transform: scale(1.06);
+			transition: .7s ease-out;
+			background-color: #FFF;
+		}
 		p{
 			display: inline-block;
 			margin-top: 8px;
@@ -431,6 +436,12 @@ aside{
 		}
 		
 	}
+	.wrap-featured-item:hover{
+			background-color: #ebebe8;
+			.featured-item:hover{
+				background-color: #ebebe8;
+			}
+		}
 	
 }
 footer{
@@ -438,8 +449,29 @@ footer{
 		height: 120px;
 		width: 980px;
 		margin-left: 16px;
+			ul{
+				li{
+					list-style: none;
+					float: left;
+					margin-left: 10px;
+					margin-top: 30px;
+					a{
+						text-decoration: none;
+						font-family: "Verdana";
+						font-size: 12px;
+						//text-transform: uppercase;
+						color: #6f7274; 
 
-		background-color: rgba(255, 255, 255, 0.01);
+					}
+				}
+			}
 		}
 	}
-
+	.copyright{
+		display: inline-block;
+		width: 200px;
+		float: right;
+		margin-top: 32px;
+		font-family: "Verdana";
+		font-size: 12px;
+	}

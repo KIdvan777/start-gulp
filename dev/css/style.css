@@ -289,11 +289,14 @@ aside {
         aside .top-dest .top-item div h5 {
           margin: 0;
           display: inline-block;
-          line-height: 3;
-          color: #0e4d7c;
-          font-size: 12px;
-          font-family: "Verdana";
-          font-weight: bold; }
+          line-height: 3; }
+          aside .top-dest .top-item div h5 a {
+            display: inline-block;
+            color: #0e4d7c;
+            font-size: 12px;
+            font-family: "Verdana";
+            font-weight: bold;
+            text-decoration: none; }
         aside .top-dest .top-item div p {
           display: inline-block;
           margin: 0;
@@ -355,6 +358,16 @@ article {
         color: #1987cb;
         font-weight: bold;
         text-align: center; }
+        article .wrap-featured-item .featured-item span a {
+          margin: 0;
+          margin-top: 6px;
+          margin-bottom: 6px;
+          font-size: 12px;
+          font-family: "Verdana";
+          color: #1987cb;
+          font-weight: bold;
+          text-decoration: none;
+          text-align: center; }
       article .wrap-featured-item .featured-item p {
         margin: 0;
         font-size: 12px;

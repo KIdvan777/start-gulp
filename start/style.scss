@@ -314,7 +314,8 @@ aside{
 				margin-left: 6px;
 				margin-top: 6px;
 				border: 3px solid #fff;
-			}div{
+			}
+			div{
 				display: inline-block;
 				width: 120px;
 				height: 100;
@@ -323,10 +324,14 @@ aside{
 					margin: 0;
 					display: inline-block;
 					line-height: 3;
-					color: #0e4d7c;
-					font-size: 12px;
-  					font-family: "Verdana";
-  					font-weight: bold;
+  						a{
+							display: inline-block;
+							color: #0e4d7c;
+							font-size: 12px;
+	  						font-family: "Verdana";
+	  						font-weight: bold;
+	  						text-decoration: none;	
+						}
 				}
 				p{
 					display: inline-block;
@@ -399,6 +404,17 @@ aside{
 			  	color: rgb(25, 135, 203);
 			  	font-weight: bold;
 			  	text-align: center;
+			  	a{
+			  		margin: 0;
+					margin-top: 6px;
+					margin-bottom: 6px;
+					font-size: 12px;
+				  	font-family: "Verdana";
+				  	color: rgb(25, 135, 203);
+				  	font-weight: bold;
+				  	text-decoration: none;
+				  	text-align: center;
+			  	}
 			  	
 			}
 			p{	

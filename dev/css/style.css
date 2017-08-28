@@ -154,6 +154,7 @@ aside .filter {
   margin-left: 16px;
   padding-right: 10px;
   padding-left: 10px;
+  padding-bottom: 6px;
   -webkit-border-radius: 5px;
   border-radius: 5px; }
   aside .filter span {
@@ -196,30 +197,6 @@ aside .filter {
       transition: 0.6s ease-out; }
       aside .filter .season p:hover i:hover {
         color: #dd7441; }
-
-footer .foot-menu {
-  display: inline-block;
-  height: 120px;
-  width: 980px;
-  margin-left: 16px; }
-  footer .foot-menu ul li {
-    list-style: none;
-    float: left;
-    margin-left: 10px;
-    margin-top: 30px; }
-    footer .foot-menu ul li a {
-      text-decoration: none;
-      font-family: "Verdana";
-      font-size: 12px;
-      color: #6f7274; }
-
-.copyright {
-  display: inline-block;
-  width: 200px;
-  float: right;
-  margin-top: 32px;
-  font-family: "Verdana";
-  font-size: 12px; }
 
 article {
   margin: 0;
@@ -327,3 +304,27 @@ article {
 
 footer .foot-menu {
   margin-top: 30px; }
+
+footer .foot-menu {
+  display: inline-block;
+  height: 120px;
+  width: 980px;
+  margin-left: 16px; }
+  footer .foot-menu ul li {
+    list-style: none;
+    float: left;
+    margin-left: 10px;
+    margin-top: 30px; }
+    footer .foot-menu ul li a {
+      text-decoration: none;
+      font-family: "Verdana";
+      font-size: 12px;
+      color: #6f7274; }
+
+.copyright {
+  display: inline-block;
+  width: 200px;
+  float: right;
+  margin-top: 32px;
+  font-family: "Verdana";
+  font-size: 12px; }

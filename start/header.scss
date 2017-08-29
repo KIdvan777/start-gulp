@@ -23,7 +23,6 @@ header{
 			img{
 				margin-left:6px;
 				margin-top: 1px;
-
 			}
 			span{
 				color: #fff;
@@ -56,7 +55,7 @@ header{
 		border-bottom: 2px solid #185480;
 		//border: 1px solid black;
 		ul{
-			
+
 			padding:0;
 			margin: 0;
 			margin-left: auto;
@@ -70,7 +69,7 @@ header{
 				display: inline-block;
 				margin-left: 2px;
 				//border: 1px solid black;
-				a{	
+				a{
 					padding: 0;
 					margin: 0;
 					display: inline-block;
@@ -92,12 +91,12 @@ header{
 				transform: scale(1.2);
 				a{
 					background-color: #fff;
-					color:#d24602; 
+					color:#d24602;
 					font-weight: bold;
-				}	
+				}
 			}
 			.lang{
-				
+
 				position: absolute;
 				float: right ;
 				margin-left:730px;
@@ -116,7 +115,7 @@ header{
 					z-index: 10;
 				}
 			}
-		}	
+		}
 	}
 .line{
 	padding: 0;
